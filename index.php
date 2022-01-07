@@ -242,7 +242,7 @@ $respuesta = json_decode($response);
       echo "</div>";
     }
     else {
-//Mostrar la respuesta en formato HTML con tablas alidando si el status es SUCCESS 
+//Mostrar la respuesta en formato HTML con tablas validando si el status es SUCCESS 
 
 if($respuesta->status=="SUCCESS"){
   echo "<div class='alert alert-success' role='alert'>";
